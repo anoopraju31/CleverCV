@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import type { FC, ReactNode } from 'react'
 
 import Navbar from '@/components/Layout/navbar'
+import Footer from '@/components/Layout/Footer'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -21,6 +22,7 @@ export const RootLayout: FC<Props> = ({ children }) => {
 				<div className='min-h-screen bg-gray-50'>
 					<Navbar />
 					{children}
+					<Footer />
 				</div>
 			</body>
 		</html>
