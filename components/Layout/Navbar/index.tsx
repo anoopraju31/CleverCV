@@ -12,7 +12,7 @@ const Navbar: FC = () => {
 
 	return (
 		<header className='bg-white shadow-sm sticky top-0 z-50'>
-			<div className='w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-0'>
+			<div className='w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16'>
 				<DesktopNavigation isMenuOpen={isMenuOpen} toggleMenu={handleToggleMenu} />
 				<MobileNavigation isMenuOpen={isMenuOpen} />
 			</div>
