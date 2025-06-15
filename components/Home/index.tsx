@@ -3,6 +3,7 @@ import { type FC } from 'react'
 import HeroSection from './HeroSection'
 import FeaturesSection from './FeatureSection'
 import HowItWorksSection from './HowItWorksSection'
+import TestimonialsSection from './TestimonialsSection'
 
 const Home: FC = () => {
 	return (
@@ -10,6 +11,7 @@ const Home: FC = () => {
 			<HeroSection />
 			<FeaturesSection />
 			<HowItWorksSection />
+			<TestimonialsSection />
 		</main>
 	)
 }
