@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import type { FC, ReactNode } from 'react'
+
+import Navbar from '@/components/Layout/navbar'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -15,7 +17,12 @@ type Props = Readonly<{
 export const RootLayout: FC<Props> = ({ children }) => {
 	return (
 		<html lang='en'>
-			<body className='antialiased'>{children}</body>
+			<body className='antialiased'>
+				<div className='min-h-screen bg-gray-50'>
+					<Navbar />
+					{children}
+				</div>
+			</body>
 		</html>
 	)
 }
