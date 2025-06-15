@@ -1,11 +1,13 @@
 import { type FC } from 'react'
 
 import HeroSection from './HeroSection'
+import FeaturesSection from './FeatureSection'
 
 const Home: FC = () => {
 	return (
-		<main className='w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-0'>
+		<main className='w-full'>
 			<HeroSection />
+			<FeaturesSection />
 		</main>
 	)
 }
