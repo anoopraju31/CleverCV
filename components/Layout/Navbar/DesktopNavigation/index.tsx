@@ -33,16 +33,18 @@ const DesktopNavigation: FC<Props> = ({ isMenuOpen, toggleMenu }) => {
 
 				{/* CTA */}
 				<div className='hidden md:flex items-center gap-4'>
-					<Button variant='ghost' className='text-gray-700 hover:text-indigo-600'>
+					<Button variant='ghost' className='text-gray-700 hover:text-indigo-600 cursor-pointer'>
 						Sign In
 					</Button>
-					<Button className='bg-indigo-600 hover:bg-indigo-700 text-white'>Get Started Free</Button>
+					<Button className='bg-indigo-600 hover:bg-indigo-700 text-white cursor-pointer'>
+						Get Started Free
+					</Button>
 				</div>
 			</div>
 
 			{/* Mobile menu button */}
 			<div className='md:hidden'>
-				<Button variant='ghost' size='sm' onClick={toggleMenu}>
+				<Button variant='ghost' className='cursor-pointer' size='sm' onClick={toggleMenu}>
 					{isMenuOpen ? <X className='h-6 w-6' /> : <Menu className='h-6 w-6' />}
 				</Button>
 			</div>

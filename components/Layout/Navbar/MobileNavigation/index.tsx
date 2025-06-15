@@ -22,11 +22,16 @@ const MobileNavigation: FC<Props> = ({ isMenuOpen }) => {
 				</Link>
 
 				<div className='px-3 py-2 space-y-2'>
-					<Button variant='ghost' className='w-full justify-start text-gray-700'>
+					<Button
+						variant='ghost'
+						className='w-full flex items-center justify-center text-gray-700 cursor-pointer'
+					>
 						Sign In
 					</Button>
 
-					<Button className='w-full bg-indigo-600 hover:bg-indigo-700 text-white'>Get Started Free</Button>
+					<Button className='w-full bg-indigo-600 hover:bg-indigo-700 text-white cursor-pointer'>
+						Get Started Free
+					</Button>
 				</div>
 			</div>
 		</div>
