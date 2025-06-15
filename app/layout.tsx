@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import type { FC, ReactNode } from 'react'
 
-import Navbar from '@/components/Layout/navbar'
+import Navbar from '@/components/Layout/Navbar'
 import Footer from '@/components/Layout/Footer'
 import './globals.css'
 
