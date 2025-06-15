@@ -5,7 +5,7 @@ import { ArrowRight, CheckCircle } from 'lucide-react'
 
 const CTASection: FC = () => {
 	return (
-		<section className='w-full py-16 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 bg-white flex flex-col items-center gap-16 bg-gradient-to-r from-indigo-600 to-green-600'>
+		<section className='w-full py-16 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 bg-white flex flex-col items-center gap-16 bg-gradient-to-r from-indigo-500 to-green-500'>
 			<div className='w-full flex flex-col gap-8 text-center'>
 				<div className='w-full flex flex-col gap-4 md:gap-6 items-center'>
 					<h2 className='text-3xl sm:text-4xl font-bold text-white'>Ready to Land Your Dream Job?</h2>
