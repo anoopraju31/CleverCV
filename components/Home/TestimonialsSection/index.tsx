@@ -15,7 +15,7 @@ const TestimonialsSection: FC = () => {
 						What Job Seekers Are Saying
 					</h2>
 					<p className='text-xl text-gray-600 text-center'>
-						Join thousands of professionals who've accelerated their careers with CleverCV
+						Join thousands of professionals who&apos;ve accelerated their careers with CleverCV
 					</p>
 				</div>
 
